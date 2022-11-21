@@ -12,13 +12,20 @@ Naše rozšíření obsahuje několik příkazů a funkcní pro zjednodušení p
 
 Po otevření HARDWARIO Code se na levé liště nachází **logo HARDWARIO**, po rozkliknutí tohoto loga budete mít přístup ke všem, momentálně dostupným příkazům.
 
-<<Obrázek hardwario-code-logo-placement.png>>
+[comment]: <> (Obrázek hardwario-code-logo-placement.png)
 
 HARDWARIO Code operuje ve dvou módech. První mód obsahuje méně funkcí a je dostupný kdykoli není otevřená složka s TOWER firmware.
+
+[comment]: <> (Ideálně vedle sebe)
+[comment]: <> (Obrázek hardwario-code-normal-mode.png)
+[comment]: <> (Obrázek hardwario-code-firmware-mode.png)
 
 Jakmile je otevřena složka s TOWER firmware, ostatní funkce budou zpřístupněny. Tyto funkce umožňují sestavení, flashování a další operace s firmware.
 
 Ve druhém módu budou některé důležité příkazy dostupné i na spodní liště ve formě ikon. Dále je zde dostuná volba zařízení, se kterým bude HARDWARIO Code pracovat (připojený Core Modul) a druhu sestavení firmwaru (Debug nebo Release).
+
+
+[comment]: <> (Obrázek hardwario-code-bottom-panel.png)
 
 ## Rychlé vytvoření nového projektu
 
@@ -34,6 +41,8 @@ Během let jsme ve stavebnici TOWER několikrát obměnili nástroje a způsoby 
 
 Stačí otevřít tento projekt v HARDWARIO Code či ve vašem VSCode s nainstalovaným rozšířením HARDWARIO TOWER. Po otevření budete upozorněni na zastaralý projekt s možností upgradu. Po krátké době by měl být projekt připraven na použití v novém prostředí.
 
+Tuto operaci je možné provést i pomocí příkazu **Update Firmware Project** v sekci **TOWER: Maintenance**
+
 ## Flashování do Core Modulu
 
 Pro zjednodušení procesu sestavení a flashování firmwaru je v HARDWARIO Code několik dostupných příkazů. Všechny tyto příkazy jsou dostupné v sekci **TOWER: Commands**.
@@ -43,6 +52,8 @@ Firmware je možné sestavit či flashovat jednotlivými příkazy či je možn�
 ## TOWER Konzole
 
 Součástí HARDWARIO Code je i integrovaná konzole, kterou je možné využít pro logování informací z připojeného Core Modulu či odesílání AT příkazů pro ovládání připojeného Core Modulu (pokud jsou AT příkazy podporovány firmwarem).
+
+Konzoli je možné otevřít příkazy **Attach Console** či **Build + Flash (Console)**. Další možnost jak se dostat ke konzoli je stisknutím klávesové zkratky `CTRL+;` na Windows a na Linux nebo `COMMAND+;` na Mac a na nově zobrazeném okně zvolit záložku TOWER, kde jsou v pravém horním rohu dostupné ikony pro ovládání konzole.
 
 ## J-Link debug
 
